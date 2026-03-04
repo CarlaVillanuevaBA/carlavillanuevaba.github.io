@@ -1,134 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Carla Villanueva | Business Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    :root { --max: 980px; }
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #111; background: #fafafa; }
-    .wrap { max-width: var(--max); margin: 0 auto; padding: 32px 18px; }
-    header { background: #0b1220; color: #fff; }
-    header .wrap { padding: 44px 18px; }
-    .pill { display:inline-block; background: rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.18);
-      padding: 6px 10px; border-radius: 999px; margin-right: 8px; font-size: 14px; }
-    h1 { margin: 0 0 10px; font-size: 34px; }
-    h2 { margin: 0; font-size: 18px; font-weight: 500; opacity: .92; }
-    .cta { margin-top: 18px; display:flex; gap:12px; flex-wrap: wrap; }
-    .btn { display:inline-block; padding:10px 14px; border-radius: 10px; text-decoration:none; font-weight:600; }
-    .btn.primary { background:#ffffff; color:#0b1220; }
-    .btn.ghost { border:1px solid rgba(255,255,255,.35); color:#fff; }
-    main { padding-top: 18px; }
-    .grid { display:grid; grid-template-columns: 1fr; gap: 16px; }
-    @media(min-width: 860px){ .grid { grid-template-columns: 1.2fr .8fr; } }
-    .card { background:#fff; border:1px solid #e8e8e8; border-radius: 16px; padding: 18px; box-shadow: 0 6px 16px rgba(0,0,0,.04); }
-    .card h3 { margin-top: 0; }
-    ul { margin: 10px 0 0; padding-left: 18px; }
-    .tag { display:inline-block; background:#f2f4f7; border:1px solid #e6e9ee; padding:6px 10px; border-radius: 999px; margin: 6px 6px 0 0; font-size: 13px; }
-    .proj { margin: 10px 0; padding: 12px; border-radius: 12px; border:1px solid #eee; background:#fcfcfc; }
-    footer { color:#666; font-size: 13px; padding: 20px 0 32px; }
-    a { color: inherit; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin: 10px 0 20px;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 10px 18px;
+      margin: 5px;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background-color: white;
+      color: #0f172a;
+    }
+
+    .btn-outline {
+      border: 2px solid white;
+      color: white;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #0f172a;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e2e8f0;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
+
 <body>
 
 <header>
-  <div class="wrap">
-    <div>
-      <span class="pill">Business Analyst</span>
-      <span class="pill">Finance Systems</span>
-      <span class="pill">Business Analytics</span>
-    </div>
+  <h1>Carla Villanueva, ECBA</h1>
+  <p>Business Analyst | Finance Systems | Business Analytics</p>
 
-    <h1>Carla Villanueva, ECBA</h1>
-    <h2>Requirements • Process Mapping (BPMN) • UAT • SQL • Power BI • D365 Finance & Operations</h2>
+  <div class="buttons">
+    <a class="btn-primary" href="Carla_Villanueva_Resume_Business_Systems_Analyst.pdf" target="_blank">
+      Download Resume
+    </a>
 
-    <div class="cta">
-      <!-- Replace the LinkedIn link if needed -->
-      <a class="btn primary" href="https://linkedin.com/in/CarlaAfricaVillanueva" target="_blank" rel="noopener">LinkedIn</a>
-      <!-- Add your resume PDF later -->
-      <a class="btn ghost" href="#contact">Contact</a>
-    </div>
+    <a class="btn-outline" href="https://linkedin.com/in/CarlaAfricaVillanueva" target="_blank">
+      LinkedIn
+    </a>
   </div>
 </header>
 
-<main class="wrap">
-  <div class="grid">
+<div class="container">
 
-    <section class="card">
-      <h3>About</h3>
-      <p>
-        Business Analyst with 2+ years at Accenture delivering technology-enabled process improvements in Agile and Waterfall environments.
-        I’m currently supporting finance systems work (Dynamics 365 Finance & Operations) and completing Business Analytics in Canada.
-        I enjoy turning business needs into clear requirements, process maps, and measurable outcomes.
-      </p>
-
-      <h3>Highlighted Projects</h3>
-
-      <div class="proj">
-        <strong>D365 Finance Systems Support</strong><br/>
-        Requirements, ticket analysis, UAT support, and documentation for finance system enhancements.
-      </div>
-
-      <div class="proj">
-        <strong>Power Platform Workflow Automation</strong><br/>
-        User stories, acceptance criteria, sprint support, and go-live enablement for automated workflows and forms.
-      </div>
-
-      <div class="proj">
-        <strong>SAP HANA Migration (CIO-Legal)</strong><br/>
-        AS-IS/TO-BE mapping, functional specs support, and UAT coordination for modernization work.
-      </div>
-
-      <div class="proj">
-        <strong>Analytics Coursework Projects</strong><br/>
-        Credit Card AI Fraud business case • Power BI dashboards • Capstone requirement analysis
-      </div>
-    </section>
-
-    <aside class="card">
-      <h3>Skills</h3>
-      <div>
-        <span class="tag">Requirements</span>
-        <span class="tag">User Stories</span>
-        <span class="tag">Acceptance Criteria</span>
-        <span class="tag">BPMN</span>
-        <span class="tag">UAT</span>
-        <span class="tag">Agile / Scrum</span>
-        <span class="tag">Waterfall</span>
-        <span class="tag">SQL</span>
-        <span class="tag">Excel</span>
-        <span class="tag">Power BI</span>
-        <span class="tag">Tableau</span>
-        <span class="tag">Azure DevOps</span>
-        <span class="tag">SharePoint</span>
-        <span class="tag">D365 F&O</span>
-      </div>
-
-      <h3 style="margin-top:18px;">Quick Info</h3>
-      <ul>
-        <li>Location: Ottawa, ON</li>
-        <li>ECBA (IIBA)</li>
-        <li>Business Analytics (Postgrad)</li>
-      </ul>
-
-      <h3 id="contact" style="margin-top:18px;">Contact</h3>
-      <ul>
-        <li>Email: <a href="mailto:carla_villanueva101530@yahoo.com">carla_villanueva101530@yahoo.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/CarlaAfricaVillanueva" target="_blank" rel="noopener">CarlaAfricaVillanueva</a></li>
-      </ul>
-    </aside>
-
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      Business Analyst with 2+ years of experience at Accenture delivering SAP HANA migration and Power Platform automation projects.
+      Currently supporting Dynamics 365 Finance & Operations initiatives.
+      Strong in requirements elicitation, BPMN process mapping, UAT coordination, and data-driven decision support.
+    </p>
   </div>
 
-  <footer class="wrap">
-    © <span id="yr"></span> Carla Villanueva • Built with GitHub Pages
-  </footer>
-</main>
+  <div class="card">
+    <h2>Core Skills</h2>
+    <div class="skills">
+      <span>Requirements Gathering</span>
+      <span>User Stories</span>
+      <span>Acceptance Criteria</span>
+      <span>BPMN</span>
+      <span>UAT</span>
+      <span>Agile / Scrum</span>
+      <span>Waterfall</span>
+      <span>SQL</span>
+      <span>Excel</span>
+      <span>Power BI</span>
+      <span>D365 F&O</span>
+      <span>Azure DevOps</span>
+    </div>
+  </div>
 
-<script>
-  document.getElementById("yr").textContent = new Date().getFullYear();
-</script>
+  <div class="card">
+    <h2>Highlighted Projects</h2>
+    <ul>
+      <li><strong>D365 Finance System Support</strong> – Requirements analysis, ticket review, UAT validation</li>
+      <li><strong>Power Platform Automation</strong> – Workflow automation & digital forms</li>
+      <li><strong>SAP HANA Migration</strong> – AS-IS/TO-BE mapping & UAT coordination</li>
+      <li><strong>Analytics Projects</strong> – Credit Card AI Fraud case & Power BI dashboards</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Carla Villanueva • Built with GitHub Pages
+</footer>
 
 </body>
 </html>
